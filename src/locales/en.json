@@ -134,5 +134,17 @@
   "footer_privacy": "Privacy Policy",
   "footer_conditions": "Conditions",
   "footer_copyright": "© 2026 Khmer Bank. All Rights Reserved.",
-  "footer_top": "Top"
+  "footer_top": "Top",
+
+  "faq_badge": "FAQ",
+  "faq_title": "Frequently Asked Questions",
+  "faq_subtitle": "Everything you need to know before getting started.",
+  "faq_q1": "How long does it take to open an account?",
+  "faq_a1": "Most accounts can be opened online in under 5 minutes. You'll just need a valid national ID and a few basic details.",
+  "faq_q2": "Are there any monthly fees?",
+  "faq_a2": "Our Savings and Current accounts have no monthly fees. Some premium features or Fixed Deposit terms may have specific conditions, clearly shown before you apply.",
+  "faq_q3": "Is my money and data safe with Khmer Bank?",
+  "faq_a3": "Yes. We use bank-grade encryption and security practices to protect your data and funds, with 24/7 monitoring on all accounts.",
+  "faq_q4": "Can I access my account from outside Cambodia?",
+  "faq_a4": "Absolutely — our mobile app and online banking are available anytime, anywhere, as long as you have an internet connection."
 }
