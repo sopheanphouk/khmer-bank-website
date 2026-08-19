@@ -264,15 +264,20 @@ function Home() {
             {[1, 2, 3, 4].map((n) => (
               <details
                 key={n}
-                className="group bg-white dark:bg-gray-950 rounded-xl border border-gray-100 dark:border-gray-800 px-6 py-4 [&_summary::-webkit-details-marker]:hidden"
+                className="group bg-white dark:bg-gray-950 rounded-2xl border border-gray-100 dark:border-gray-800 px-6 py-5 shadow-sm hover:shadow-md open:shadow-md open:border-blue-200 dark:open:border-blue-800 transition-all [&_summary::-webkit-details-marker]:hidden"
               >
-                <summary className="flex items-center justify-between cursor-pointer font-medium text-gray-800 dark:text-gray-100">
-                  {t(`faq_q${n}`)}
-                  <span className="ml-4 shrink-0 text-blue-600 dark:text-blue-400 transition-transform group-open:rotate-45 text-xl">
+                <summary className="flex items-center justify-between cursor-pointer font-semibold text-gray-800 dark:text-gray-100 list-none">
+                  <span className="flex items-center gap-3">
+                    <span className="w-7 h-7 shrink-0 rounded-full bg-blue-100 dark:bg-blue-900/40 text-blue-600 dark:text-blue-400 text-xs font-bold flex items-center justify-center">
+                      {n}
+                    </span>
+                    {t(`faq_q${n}`)}
+                  </span>
+                  <span className="ml-4 shrink-0 w-8 h-8 rounded-full bg-gray-100 dark:bg-gray-800 group-open:bg-blue-600 dark:group-open:bg-blue-500 text-gray-500 dark:text-gray-300 group-open:text-white flex items-center justify-center transition-all group-open:rotate-45">
                     +
                   </span>
                 </summary>
-                <p className="text-sm text-gray-500 dark:text-gray-400 mt-3 leading-relaxed">
+                <p className="text-sm text-gray-500 dark:text-gray-400 mt-4 pl-10 leading-relaxed">
                   {t(`faq_a${n}`)}
                 </p>
               </details>
